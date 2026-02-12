@@ -27,3 +27,5 @@ assert sort(50, 50, 200, 30) == 'REJECTED'
 assert sort(100, 100, 100, 10) == 'SPECIAL'
 assert sort(100, 100, 99, 10) == 'STANDARD'
 assert sort(100, 100, 100, 20) == 'REJECTED'
+assert sort(1, 1, 1, 19.99999999999999) == 'STANDARD' # Decimal precision test
+assert sort(1, 1, 1, 19.999999999999999) == 'SPECIAL' # Decimal precision test
