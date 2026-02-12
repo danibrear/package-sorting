@@ -13,7 +13,7 @@
 ## Classification
 
 Bulky Package
-- Volume (length x height x width) > 1,000,000
+- Volume (length x height x width) >= 1,000,000
 - length >= 150 or width >= 150 or height >= 150
 
 Heavy Package
